@@ -1,0 +1,135 @@
+/* GENERAL STYLES */
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;700&display=swap');
+
+*   {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+}
+/* END OF GENERAL STYLES */
+main    {
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 40rem 1fr;
+    background-color: hsl(204, 43%, 93%);
+}
+
+/* CARD */
+
+.card   {
+    width: 40rem;
+    height: 30rem;
+    grid-column-start: 2;
+    align-self: center;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 50% 50%;
+    box-shadow: 0px 5px 14px 3px rgba(0, 0, 0, 0.13);
+}
+
+.card-intro {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: #fff;
+    border-radius: .5rem .5rem 0 0;
+    display: flex;
+    flex-direction: column;
+    padding: 2.6rem;
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 1.4rem;
+    color:  hsl(179, 62%, 43%);
+    padding-bottom: 1.6rem;
+}
+
+.guarantee  {
+    font-weight: 400;
+    font-size: 1.1rem;
+    color:  hsl(71, 73%, 54%);
+    padding-bottom: .4rem;
+}
+
+.text-card-title   {
+    font-weight: 400;
+    font-size: 1rem;
+    color: hsl(218, 22%, 67%);
+    line-height: 1.8rem;
+}
+
+.card-price {
+    background-color: hsl(179, 62%, 43%);
+    border-radius: 0 0 0 .5rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2.6rem;
+}
+
+.card-price-title   {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color:  #fff;
+    padding-bottom: 1rem;
+}
+
+.price   {
+    color: #fff;
+    font-weight: 700;  
+    font-size: 2rem;
+    padding-bottom: .2rem;     
+}
+
+.price span  {
+    color: #6bd8d6;
+    font-weight: 400;  
+    font-size: .9rem;
+    position: relative;
+    top: -.5rem;  
+    left: .8rem; 
+}
+
+.text-card-price    {
+    color: #fff;
+    font-weight: 300;  
+    font-size: 1rem;
+    padding-bottom: 2rem; 
+}
+
+.sign-up-btn    {
+    height: 3rem;
+    background-color: hsl(71, 73%, 54%);
+    color: #fff;
+    border: none;
+    border-style: none;
+    border-radius: .3rem;
+    font-size: 1rem;
+    font-weight: 400;
+    box-shadow: 0px 5px 14px 3px rgba(0, 0, 0, 0.13);
+}
+
+.card-why {
+    background-color: #4FBEBC;
+    border-radius: 0 0 .5rem 0;
+    display: flex;
+    flex-direction: column;
+    padding: 2.6rem;
+}
+
+.why-title  {
+    font-weight: 700;
+    font-size: 1rem;
+    color:  #fff;
+    padding-bottom: 1rem;
+}
+
+.text-why-card  {
+    width: 12rem;
+    line-height: 1.3rem;
+    color: #fff;
+    font-weight: 300;
+    font-size: .9rem;
+    line-height: 1.3rem;
+}
